@@ -32,6 +32,8 @@ public class FinalGrade {
         System.out.print("Enter grade for assignment 6: " );
         assignment6 = s.nextFloat();
 
+        float finalGrade;
+
         // test if user chooses the optional assignment
         if (assignment6 >= 0) {
             // if yes, determine lowest previous assignment
@@ -54,7 +56,7 @@ public class FinalGrade {
                 lowest = assignment5;
             }
 
-            float finalGrade =  assignment6;
+            finalGrade =  assignment6;
             if (assignment1 != lowest) {
                 finalGrade += assignment1;
             }
@@ -69,16 +71,18 @@ public class FinalGrade {
             }
             if (assignment5 != lowest) {
                 finalGrade += assignment5;
-                finalGrade = finalGrade + assignment5;
+                //finalGrade = finalGrade + assignment5;
             }
             finalGrade /= 5.0f;
 
         } else {
 
-            float finalGrade =
+            finalGrade =
                     (assignment1 + assignment2 + assignment3 + assignment4 + assignment5 /* + assignment6 */) / 5;
-            System.out.println("Your final grade is: " + finalGrade);
 
         }
+        System.out.println("Your final grade is: " + finalGrade);
+
     }
 }
+
