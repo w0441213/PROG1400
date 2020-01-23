@@ -2,6 +2,7 @@ package CountCharacters;
 
 // A program that will count the number of occurrences of a particular letter in a given string
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class countCharacters {
@@ -10,6 +11,16 @@ public class countCharacters {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
+
+        // making an array of characters to contain the modified alphabet
+        // characters used single quotes ' and strings use double quotes "
+        char[] oldAlphabet = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'};
+        char[] newAlphabet = {'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
+
+        // don't do this
+        //char[] newAlphabet = new char[26];
+        // newAlphabet[0] = 'N';
+        // newAlphabet[1] = 'N'; .. and so on
 
         //type sprt for shortcut
         System.out.print("Please enter a string: ");
@@ -33,5 +44,8 @@ public class countCharacters {
 
         System.out.println("There are " + count + " '" + ch + "s in " + str);
 
+        System.out.println("'A' is now a '" + (char)('A' + 13) + "'");
+
     }
+
 }
