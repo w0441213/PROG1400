@@ -2,7 +2,7 @@ package OOP.Doubles;
 
 import java.util.Scanner;
 
-//GAME
+//This is the game
 public class DoublesGame {
 
     public void run() {
