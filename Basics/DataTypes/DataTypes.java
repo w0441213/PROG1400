@@ -1,4 +1,4 @@
-package DataTypes;
+package Basics.DataTypes;
 
 public class DataTypes {
 

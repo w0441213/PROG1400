@@ -1,4 +1,4 @@
-package SalesPrediction;
+package Basics.SalesPrediction;
 
 public class SalesPrediction {
 

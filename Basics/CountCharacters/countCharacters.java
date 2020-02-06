@@ -1,8 +1,7 @@
-package CountCharacters;
+package Basics.CountCharacters;
 
 // A program that will count the number of occurrences of a particular letter in a given string
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class countCharacters {

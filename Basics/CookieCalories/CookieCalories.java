@@ -1,4 +1,4 @@
-package CookieCalories;
+package Basics.CookieCalories;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package FinalGrade;
+package Basics.FinalGrade;
 
 import java.util.Scanner;
 
