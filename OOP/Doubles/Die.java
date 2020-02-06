@@ -2,6 +2,7 @@ package OOP.Doubles;
 
 import java.util.Random;
 
+//CLASS
 public class Die {
         int value;
 
