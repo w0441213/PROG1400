@@ -4,9 +4,17 @@ import java.util.Random;
 
 //This is the class
 public class Die {
-        int value;
+        private int value;
 
-        public void roll (){
+    public int getValue() {
+        return this.value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
+
+    public void roll (){
             Random random = new Random();
             value = random.nextInt(6) + 1;
         }
